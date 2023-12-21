@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-image: url(assets/jpg/banner/banner.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 80vh;
+}
+body{
+    background-color: #222;
+}
+.banner .banner-content{
+    padding: 30% 5%;
+    
+}
+.banner .banner-content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 5rem ;
+    letter-spacing: 3px;
+}
+.banner .banner-content p{
+    font-size: 1rem;
+    max-width: 500px;
+    padding: 2% 0;
+}
+.banner .banner-content .banner-buttons .play{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 1% 2% ;
+    font-size: 1.3rem;
+    margin-right: 5px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.banner .banner-content .banner-buttons .play:hover{
+    background-color: #fff;
+    color: #333;
+    transition: 5ms;
+}
+.banner .banner-content .banner-buttons .info{
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 1% 2%;
+    font-size: 1.3rem;
+    margin-right: 5px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.banner .banner-content .banner-buttons .info:hover{
+    background-color: #333;
+    color: #fff;
+    transition: 5ms;
+}
+section .posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-y: scroll;
+    margin: 1% 2%;
+}
+section .posters::-webkit-scrollbar{
+    display: none;
+}
+section .posters .poster-title .poster{
+    height: 150px;
+    margin: 0 9px;
+    transition:transform 420ms;
+}
+section .posters .poster-title h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #ffff;
+    text-align: center;
+}
+
+section .posters .poster:hover{
+    transform: scale(1.09);
+
+}
+section h1{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1% 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav .logo{
+    width: 60px;
+    object-fit: contain;
+    margin: 5px 10px;
+}
+nav .profile{
+    width: 60px;
+    object-fit: contain;
+    margin: 10px 10px;
+    border-radius: 50%;
+    border: 2px solid #666;
+}
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    width: 100%;
+
+}
